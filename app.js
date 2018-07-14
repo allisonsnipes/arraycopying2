@@ -1,9 +1,10 @@
 function minusLastItem(array) {
-  // your code goes here
+  return array.slice(0, array.length - 1);;
 }
 
 function copyFirstHalf(array) {
-  // your code goes here
+  // i dont get the logic of this code... how do we know its not a string//
+  return array.slice(0, array.length / 2);
 }
 
 /* From here down, you are not expected to
